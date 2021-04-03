@@ -1,0 +1,19 @@
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/kamechdb
+#    username: postgres
+#    password: postgres
+#    platform: postgres
+#
+#
+#  jpa:
+#    generate-ddl: true
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        format_sql: true
+#    database: postgresql
+##        dialect: org.hibernate.dialect.PostgreSQLDialect
