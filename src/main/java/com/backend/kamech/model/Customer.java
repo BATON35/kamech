@@ -1,10 +1,13 @@
 package com.backend.kamech.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "customer")
+@Data
+@Table(name = "customers")
 public class Customer implements Serializable {
 
     private static final long serialVersionUID = -2343243243242432341L;
@@ -17,6 +20,4 @@ public class Customer implements Serializable {
 
     @Column(name = "lastname")
     private String lastName;
-
-//Setters, getters and constructors
 }
